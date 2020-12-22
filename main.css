@@ -1,0 +1,36 @@
+
+.target-area {
+  margin-top: 50px;
+  list-style:none;
+  display:flex;
+  justify-content:space-between;
+  width:100%;
+  flex-wrap:wrap;
+}
+.target-area .hidden {
+  display: none
+}
+.search-area input {
+  width:50%;
+}
+
+.target-area li{
+ width:45%;
+}
+
+.target-area li img{
+  width:100%;
+}
+
+.size{
+  height:257.81px;
+}
+
+
+*{
+  text-align:center;
+}
+
+body{
+  padding:0 200px;
+}

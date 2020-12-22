@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>  <!-- jqueryで実装する場合 -->
+        <link rel="stylesheet" href="main.css">
+        <title>RealTimeFilter</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <h2>リアルタイムフィルター</h2>
+            <p>入力した文字を含まない要素は非表示となります。</p>
+    <div class="search-area">
+      <form>
+        <input type="text" id="search-text" placeholder="検索ワードを入力">
+      </form>
+    </div>
+
+    <ul class="target-area">
+      <li>
+          <img src="images/sky.jpg"></img>
+          <p>キーワード</p>
+          <p class="target-key">青空　あおそら　aozora</p>
+      </li>
+      <li>
+          <img class="size" src="images/glass.jpg"></img>
+           <p>キーワード</p>
+          <p class="target-key">草原　そうげん　sougen</p>
+      </li>
+      <li>
+          <img src="images/ocean.jpg"></img>
+           <p>キーワード</p>
+          <p class="target-key">海　うみ　umi</p>
+      </li>
+      <li>
+          <img src="images/yuki.jpg"></img>
+          <p>キーワード</p>
+          <p class="target-key">雪山　ゆきやま　yukiyama</p>
+      </li>
+    </ul>
+  </div>
+        <script src="main.js"></script>
+    </body>
+</html>
